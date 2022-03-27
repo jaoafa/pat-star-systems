@@ -1,0 +1,71 @@
+{
+    "name": "AutoHalley",
+    "planets": [
+        {
+            "name": "Autoded",
+            "mass": 35000,
+            "position_x": 0.002185569377616048,
+            "position_y": 50000,
+            "velocity_x": -100,
+            "velocity_y": 0,
+            "required_thrust_to_move": 0,
+            "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1175577600,
+                "radius": 900,
+                "heightRange": 100,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 50,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "metal",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        },
+        {
+            "name": "Terminus",
+            "mass": 5000,
+            "position_x": 50000,
+            "position_y": 0,
+            "velocity_x": 0.0000043711384023481514,
+            "velocity_y": -100,
+            "required_thrust_to_move": 2,
+            "starting_planet": false,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1670803968,
+                "radius": 250,
+                "heightRange": 50,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 0,
+                "metalDensity": 0,
+                "metalClusters": 0,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "moon",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        }
+    ]
+}

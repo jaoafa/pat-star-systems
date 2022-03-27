@@ -1,0 +1,71 @@
+{
+    "name": "GreenApple",
+    "planets": [
+        {
+            "name": "GreenApple a",
+            "mass": 50000,
+            "position_x": -21616.8203125,
+            "position_y": -45085.609375,
+            "velocity_x": 90.17125701904297,
+            "velocity_y": -43.233638763427734,
+            "required_thrust_to_move": 0,
+            "starting_planet": false,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1888084224,
+                "radius": 1300,
+                "heightRange": 0,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 14,
+                "metalDensity": 0,
+                "metalClusters": 0,
+                "metalSpotLimit": -1,
+                "biomeScale": 100.00000013739177,
+                "biome": "gas",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        },
+        {
+            "name": "GreenApple b",
+            "mass": 20000,
+            "position_x": -19500,
+            "position_y": -39000,
+            "velocity_x": -95.8728256225586,
+            "velocity_y": 21.479984283447266,
+            "required_thrust_to_move": 0,
+            "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 694911040,
+                "radius": 1300,
+                "heightRange": 50,
+                "waterHeight": 45,
+                "waterDepth": 0,
+                "temperature": 100,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "tropical",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        }
+    ]
+}

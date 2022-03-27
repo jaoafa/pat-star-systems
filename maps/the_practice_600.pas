@@ -1,0 +1,71 @@
+{
+    "name": "The Practice 600",
+    "planets": [
+        {
+            "name": "Practice Object 4",
+            "mass": 5000,
+            "position_x": 0,
+            "position_y": 23100,
+            "velocity_x": -147.12245178222656,
+            "velocity_y": -0.00000643092653263011,
+            "required_thrust_to_move": 0,
+            "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1778061952,
+                "radius": 600,
+                "heightRange": 50,
+                "waterHeight": 45,
+                "waterDepth": 100,
+                "temperature": 0,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "sandbox",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 10,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        },
+        {
+            "name": "O-01",
+            "mass": 5000,
+            "position_x": 0,
+            "position_y": 60000,
+            "velocity_x": -91.28709411621094,
+            "velocity_y": -0.000003990285676991334,
+            "required_thrust_to_move": 1,
+            "starting_planet": false,
+            "respawn": true,
+            "start_destroyed": false,
+            "min_spawn_delay": 300,
+            "max_spawn_delay": 360,
+            "planet": {
+                "seed": 8239,
+                "radius": 250,
+                "heightRange": 100,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 50,
+                "metalDensity": 1,
+                "metalClusters": 1,
+                "metalSpotLimit": 5,
+                "biomeScale": 100.00000013739177,
+                "biome": "asteroid",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        }
+    ]
+}

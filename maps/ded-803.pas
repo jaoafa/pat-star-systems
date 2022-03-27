@@ -1,0 +1,71 @@
+{
+    "name": "DED-803",
+    "planets": [
+        {
+            "name": "DED-803",
+            "mass": 35000,
+            "position_x": 0.0006556708249263465,
+            "position_y": 15000,
+            "velocity_x": -182.57418823242188,
+            "velocity_y": 0,
+            "required_thrust_to_move": 0,
+            "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 650862528,
+                "radius": 800,
+                "heightRange": 0,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 50,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "metal",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        },
+        {
+            "name": "Nus",
+            "mass": 10000,
+            "position_x": 0,
+            "position_y": 17300,
+            "velocity_x": 93.26443481445312,
+            "velocity_y": 0.00009069179213838652,
+            "required_thrust_to_move": 1,
+            "starting_planet": false,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1475750656,
+                "radius": 3,
+                "heightRange": 35,
+                "waterHeight": 70,
+                "waterDepth": 100,
+                "temperature": 60,
+                "metalDensity": 0,
+                "metalClusters": 0,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "gas",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        }
+    ]
+}

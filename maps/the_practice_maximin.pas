@@ -1,0 +1,71 @@
+{
+    "name": "The Practice Maximin",
+    "planets": [
+        {
+            "name": "Practice 2000",
+            "mass": 10000,
+            "position_x": 20000,
+            "position_y": -0.0017484555719420314,
+            "velocity_x": 0.000006911377113283379,
+            "velocity_y": 158.11387634277344,
+            "required_thrust_to_move": 0,
+            "starting_planet": true,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 571419008,
+                "radius": 2000,
+                "heightRange": 0,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 0,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "sandbox",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        },
+        {
+            "name": "Practice 100",
+            "mass": 5000,
+            "position_x": 17200,
+            "position_y": 0,
+            "velocity_x": 0.00008451562462141737,
+            "velocity_y": 291.7445068359375,
+            "required_thrust_to_move": 2,
+            "starting_planet": false,
+            "respawn": false,
+            "start_destroyed": false,
+            "min_spawn_delay": 0,
+            "max_spawn_delay": 0,
+            "planet": {
+                "seed": 1112661120,
+                "radius": 100,
+                "heightRange": 0,
+                "waterHeight": 0,
+                "waterDepth": 100,
+                "temperature": 0,
+                "metalDensity": 100,
+                "metalClusters": 100,
+                "metalSpotLimit": -1,
+                "biomeScale": 50,
+                "biome": "sandbox",
+                "symmetryType": "none",
+                "symmetricalMetal": false,
+                "symmetricalStarts": false,
+                "numArmies": 2,
+                "landingZonesPerArmy": 0,
+                "landingZoneSize": 0
+            }
+        }
+    ]
+}
