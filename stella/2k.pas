@@ -1,5 +1,6 @@
 {
     "name": "2K",
+    "version": "",
     "planets": [
         {
             "name": "2K",
@@ -31,7 +32,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

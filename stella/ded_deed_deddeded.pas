@@ -1,13 +1,16 @@
 {
     "name": "Ded Deed Deddeded",
+    "description": "",
+    "creator": "",
+    "version": "",
     "planets": [
         {
             "name": "Red Moon Orchestra b",
             "mass": 50000,
-            "position_x": 121417.40625,
-            "position_y": 29711.79296875,
-            "velocity_x": -15.033127784729004,
-            "velocity_y": 61.43294906616211,
+            "position_x": 121800,
+            "position_y": 29100,
+            "velocity_x": -14.683378219604492,
+            "velocity_y": 61.458248138427734,
             "required_thrust_to_move": 2,
             "starting_planet": false,
             "respawn": false,
@@ -31,16 +34,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "RMOb1",
             "mass": 5000,
-            "position_x": 124329.5234375,
-            "position_y": 34184.5390625,
-            "velocity_x": 166.339599609375,
-            "velocity_y": -56.655269622802734,
+            "position_x": 124712.1171875,
+            "position_y": 33572.74609375,
+            "velocity_x": 166.68934631347656,
+            "velocity_y": -56.62997055053711,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -64,16 +68,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "RMOb2",
             "mass": 5000,
-            "position_x": 127164.03125,
-            "position_y": 27724.3671875,
-            "velocity_x": -81.3070068359375,
-            "velocity_y": -130.19744873046875,
+            "position_x": 127546.625,
+            "position_y": 27112.57421875,
+            "velocity_x": -80.95726013183594,
+            "velocity_y": -130.17214965820312,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -97,16 +102,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "RMOb3",
             "mass": 5000,
-            "position_x": 125433.4609375,
-            "position_y": 35381.52734375,
-            "velocity_x": 139.75718688964844,
-            "velocity_y": -48.20999526977539,
+            "position_x": 125816.0546875,
+            "position_y": 34769.734375,
+            "velocity_x": 140.10693359375,
+            "velocity_y": -48.184696197509766,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -130,16 +136,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "RMOb4",
             "mass": 5000,
-            "position_x": 114594.7421875,
-            "position_y": 25938.8125,
-            "velocity_x": 71.62553405761719,
-            "velocity_y": -95.27149963378906,
+            "position_x": 114977.3359375,
+            "position_y": 25327.01953125,
+            "velocity_x": 71.97528076171875,
+            "velocity_y": -95.24620056152344,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -163,16 +170,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "RMOb5",
             "mass": 5000,
-            "position_x": 127146.4765625,
-            "position_y": 36222.0078125,
-            "velocity_x": 112.42857360839844,
-            "velocity_y": -50.734920501708984,
+            "position_x": 127529.0703125,
+            "position_y": 35610.21484375,
+            "velocity_x": 112.7783203125,
+            "velocity_y": -50.70962142944336,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -196,16 +204,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "Ded Moon Orchestra",
             "mass": 35000,
-            "position_x": 121873.3125,
-            "position_y": 26571.619140625,
-            "velocity_x": 262.74542236328125,
-            "velocity_y": 101.76225280761719,
+            "position_x": 122255.90625,
+            "position_y": 25959.826171875,
+            "velocity_x": 263.0951843261719,
+            "velocity_y": 101.78755187988281,
             "required_thrust_to_move": 1,
             "starting_planet": true,
             "respawn": false,
@@ -229,16 +238,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
             "name": "Red Doom Orchestra",
             "mass": 35000,
-            "position_x": 125682.84375,
-            "position_y": 29523.171875,
-            "velocity_x": -25.7231388092041,
-            "velocity_y": -180.30894470214844,
+            "position_x": 126065.4375,
+            "position_y": 28911.380859375,
+            "velocity_x": -25.373279571533203,
+            "velocity_y": -180.2836456298828,
             "required_thrust_to_move": 6,
             "starting_planet": false,
             "respawn": false,
@@ -262,7 +272,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]
