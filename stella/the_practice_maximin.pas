@@ -1,13 +1,16 @@
 {
     "name": "The Practice Maximin",
+    "description": "LARGEST AND SMALLEST",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Practice 2000",
             "mass": 10000,
-            "position_x": 20000,
-            "position_y": -0.0017484555719420314,
-            "velocity_x": 0.000006911377113283379,
-            "velocity_y": 158.11387634277344,
+            "position_x": 27775,
+            "position_y": -0.002428167499601841,
+            "velocity_x": 0.00000586479063713341,
+            "velocity_y": 134.1707763671875,
             "required_thrust_to_move": 0,
             "starting_planet": true,
             "respawn": false,
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -39,8 +43,8 @@
             "mass": 5000,
             "position_x": 17200,
             "position_y": 0,
-            "velocity_x": 0.00008451562462141737,
-            "velocity_y": 291.7445068359375,
+            "velocity_x": -0.0000069181319304334465,
+            "velocity_y": 65.40936279296875,
             "required_thrust_to_move": 2,
             "starting_planet": false,
             "respawn": false,
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

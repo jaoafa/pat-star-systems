@@ -1,13 +1,16 @@
 {
     "name": "Girly Orchestra",
+    "description": "Girly Stellar + Red Moon Orchestra",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "GOasteroid",
             "mass": 5000,
             "position_x": 40700,
             "position_y": 0,
-            "velocity_x": -0.000022045096557121724,
-            "velocity_y": -63.95646667480469,
+            "velocity_x": -0.000004844873274123529,
+            "velocity_y": 110.83777618408203,
             "required_thrust_to_move": 2,
             "starting_planet": true,
             "respawn": false,
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -39,7 +43,7 @@
             "mass": 5000,
             "position_x": 41400,
             "position_y": 0.0004610744072124362,
-            "velocity_x": -0.00003438978819758631,
+            "velocity_x": -0.00003438979183556512,
             "velocity_y": -70.49858093261719,
             "required_thrust_to_move": 4,
             "starting_planet": false,
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -97,7 +102,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -130,7 +136,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -138,7 +145,7 @@
             "mass": 50000,
             "position_x": 50000,
             "position_y": -0.0015893253730610013,
-            "velocity_x": -0.0000011924882983294083,
+            "velocity_x": -0.0000011924879572688951,
             "velocity_y": 100,
             "required_thrust_to_move": 0,
             "starting_planet": false,
@@ -163,7 +170,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -196,7 +204,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -204,8 +213,8 @@
             "mass": 5000,
             "position_x": 44900,
             "position_y": 0.0008425441337749362,
-            "velocity_x": -0.00009708813740871847,
-            "velocity_y": -121.40371704101562,
+            "velocity_x": -0.00009708814468467608,
+            "velocity_y": -121.40373229980469,
             "required_thrust_to_move": 1,
             "starting_planet": false,
             "respawn": false,
@@ -229,7 +238,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -262,7 +272,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -270,7 +281,7 @@
             "mass": 5000,
             "position_x": 44200,
             "position_y": 0.0011763301445171237,
-            "velocity_x": -0.00009111533290706575,
+            "velocity_x": -0.00009111534018302336,
             "velocity_y": -107.61370849609375,
             "required_thrust_to_move": 2,
             "starting_planet": false,
@@ -295,7 +306,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -328,7 +340,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

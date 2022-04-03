@@ -1,13 +1,16 @@
 {
     "name": "Terminal",
+    "description": "終点",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "終点",
             "mass": 5000,
             "position_x": -21000,
             "position_y": 0,
-            "velocity_x": -0.000006744813617842738,
-            "velocity_y": 154.3033447265625,
+            "velocity_x": 0.000006744813617842738,
+            "velocity_y": -154.3033447265625,
             "required_thrust_to_move": 1,
             "starting_planet": true,
             "respawn": false,
@@ -29,9 +32,10 @@
                 "symmetryType": "none",
                 "symmetricalMetal": false,
                 "symmetricalStarts": false,
-                "numArmies": 3,
+                "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

@@ -1,6 +1,8 @@
 {
     "name": "2K",
-    "version": "",
+    "description": "2000.",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "2K",

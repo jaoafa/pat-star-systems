@@ -1,5 +1,8 @@
 {
     "name": "DED-803",
+    "description": "Radius 800 Metal planet and TINY GAS GIANT",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "DED-803",
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -53,7 +57,7 @@
                 "heightRange": 35,
                 "waterHeight": 70,
                 "waterDepth": 100,
-                "temperature": 60,
+                "temperature": 59.999996185302734,
                 "metalDensity": 0,
                 "metalClusters": 0,
                 "metalSpotLimit": -1,
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

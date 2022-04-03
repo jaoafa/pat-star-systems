@@ -1,8 +1,8 @@
 {
     "name": "True Gamma System",
-    "description": "",
-    "creator": "",
-    "version": "",
+    "description": "100 Radius crime planet",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Nucleus",

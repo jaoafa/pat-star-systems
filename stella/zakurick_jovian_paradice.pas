@@ -1,13 +1,16 @@
 {
     "name": "Zakurick Jovian Paradice",
+    "description": "Zakurick Jovian Paradice",
+    "creator": "Zakuro",
+    "version": "1.1.0",
     "planets": [
         {
-            "name": "Jared Leto",
+            "name": "ZJPaIIIα",
             "mass": 5000,
-            "position_x": -39300.0078125,
-            "position_y": -5900.01220703125,
-            "velocity_x": -212.1769256591797,
-            "velocity_y": -93.03755187988281,
+            "position_x": -31400.013671875,
+            "position_y": 14899.9697265625,
+            "velocity_x": 129.24508666992188,
+            "velocity_y": -61.89213180541992,
             "required_thrust_to_move": 3,
             "starting_planet": true,
             "respawn": false,
@@ -31,16 +34,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
-            "name": "HU60-J",
+            "name": "ZJPa",
             "mass": 50000,
-            "position_x": -25500,
-            "position_y": -5799.99755859375,
-            "velocity_x": 30.66713523864746,
-            "velocity_y": -134.82968139648438,
+            "position_x": -39300.0078125,
+            "position_y": -1100.0078125,
+            "velocity_x": 3.1552765369415283,
+            "velocity_y": -112.72846984863281,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -64,16 +68,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
-            "name": "Ohmwrecker",
+            "name": "ZJPaIIIβ",
             "mass": 10000,
-            "position_x": -20400.017578125,
-            "position_y": -13799.958984375,
-            "velocity_x": 167.54798889160156,
-            "velocity_y": -47.56800079345703,
+            "position_x": -34200.01953125,
+            "position_y": 6899.94873046875,
+            "velocity_x": -264.51019287109375,
+            "velocity_y": 36.64044952392578,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -97,16 +102,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
-            "name": "Imperius",
+            "name": "ZJPaII",
             "mass": 10000,
-            "position_x": -19000.015625,
-            "position_y": -2699.95849609375,
-            "velocity_x": -49.53990936279297,
-            "velocity_y": 33.343841552734375,
+            "position_x": -33200,
+            "position_y": 2500,
+            "velocity_x": -92.33065032958984,
+            "velocity_y": 49.06697082519531,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -130,16 +136,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
-            "name": "Phantasma",
+            "name": "ZJPaI",
             "mass": 10000,
-            "position_x": -29900.015625,
-            "position_y": -7599.9580078125,
-            "velocity_x": -56.15925598144531,
-            "velocity_y": 77.41801452636719,
+            "position_x": -43700.0234375,
+            "position_y": -2899.966064453125,
+            "velocity_x": -83.67102813720703,
+            "velocity_y": 99.51925659179688,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -163,16 +170,17 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
-            "name": "Navajo",
+            "name": "ZJPaIII",
             "mass": 35000,
-            "position_x": -39500,
-            "position_y": -9000,
-            "velocity_x": 24.68008041381836,
-            "velocity_y": -108.31809997558594,
+            "position_x": -31600.005859375,
+            "position_y": 11799.9814453125,
+            "velocity_x": -107.61188507080078,
+            "velocity_y": -46.61158752441406,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -180,7 +188,7 @@
             "min_spawn_delay": 0,
             "max_spawn_delay": 0,
             "planet": {
-                "seed": 1817315840,
+                "seed": 1232618624,
                 "radius": 500,
                 "heightRange": 0,
                 "waterHeight": 0,
@@ -196,7 +204,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

@@ -1,13 +1,16 @@
 {
     "name": "The Practice 500",
+    "description": "For experience(?)",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Practice Object 1",
             "mass": 5000,
             "position_x": 0,
-            "position_y": 15800,
-            "velocity_x": -177.8920135498047,
-            "velocity_y": -0.000007775906851748005,
+            "position_y": 21210,
+            "velocity_x": -153.53756713867188,
+            "velocity_y": -0.000006711340120091336,
             "required_thrust_to_move": 3,
             "starting_planet": true,
             "respawn": false,
@@ -29,9 +32,10 @@
                 "symmetryType": "none",
                 "symmetricalMetal": false,
                 "symmetricalStarts": false,
-                "numArmies": 3,
+                "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

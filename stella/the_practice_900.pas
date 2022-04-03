@@ -1,13 +1,16 @@
 {
     "name": "The Practice 900",
+    "description": "For experience(?)",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Practice Object 3",
             "mass": 20000,
             "position_x": 7306.5634765625,
             "position_y": -20842.9375,
-            "velocity_x": 353.335205078125,
-            "velocity_y": -3.2996292114257812,
+            "velocity_x": 353.3351745605469,
+            "velocity_y": -3.2996139526367188,
             "required_thrust_to_move": 0,
             "starting_planet": true,
             "respawn": false,
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -39,8 +43,8 @@
             "mass": 10000,
             "position_x": 11706.5634765625,
             "position_y": -17942.9375,
-            "velocity_x": -8.992095947265625,
-            "velocity_y": -161.19830322265625,
+            "velocity_x": 294.78436279296875,
+            "velocity_y": 320.75103759765625,
             "required_thrust_to_move": 5,
             "starting_planet": false,
             "respawn": false,
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -97,7 +102,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

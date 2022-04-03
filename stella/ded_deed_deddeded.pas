@@ -1,8 +1,8 @@
 {
     "name": "Ded Deed Deddeded",
-    "description": "",
-    "creator": "",
-    "version": "",
+    "description": "deddeddeddeddeddeddeddeddeddeddeddeddeddeddeddeddeddeddeddeddedded",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Red Moon Orchestra b",

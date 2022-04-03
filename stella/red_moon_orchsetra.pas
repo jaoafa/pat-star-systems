@@ -1,13 +1,16 @@
 {
     "name": "Red Moon Orchsetra",
+    "description": "The Red Moon Orchestra\n\nOnly one starting planet and 5 lava planets + more",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Red Moon Orchestra b",
             "mass": 50000,
             "position_x": 121417.4296875,
             "position_y": 29711.697265625,
-            "velocity_x": -15.0330810546875,
-            "velocity_y": 61.43296432495117,
+            "velocity_x": -15.033082008361816,
+            "velocity_y": 61.43296813964844,
             "required_thrust_to_move": 0,
             "starting_planet": false,
             "respawn": false,
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -72,7 +77,7 @@
             "mass": 5000,
             "position_x": 128400,
             "position_y": 29300,
-            "velocity_x": -26.16049575805664,
+            "velocity_x": -26.160497665405273,
             "velocity_y": -127.29313659667969,
             "required_thrust_to_move": 4,
             "starting_planet": false,
@@ -97,7 +102,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -105,7 +111,7 @@
             "mass": 5000,
             "position_x": 128400,
             "position_y": 29300,
-            "velocity_x": -26.16049575805664,
+            "velocity_x": -26.160497665405273,
             "velocity_y": -127.29313659667969,
             "required_thrust_to_move": 4,
             "starting_planet": false,
@@ -130,7 +136,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -138,8 +145,8 @@
             "mass": 5000,
             "position_x": 128400,
             "position_y": 29400,
-            "velocity_x": -23.46703338623047,
-            "velocity_y": -127.502685546875,
+            "velocity_x": -6.599128723144531,
+            "velocity_y": 250.36862182617188,
             "required_thrust_to_move": 4,
             "starting_planet": false,
             "respawn": false,
@@ -163,7 +170,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -171,7 +179,7 @@
             "mass": 5000,
             "position_x": 128400,
             "position_y": 29300,
-            "velocity_x": -26.16049575805664,
+            "velocity_x": -26.160497665405273,
             "velocity_y": -127.29313659667969,
             "required_thrust_to_move": 4,
             "starting_planet": false,
@@ -196,7 +204,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -205,7 +214,7 @@
             "position_x": 121600,
             "position_y": 25100,
             "velocity_x": 217.52398681640625,
-            "velocity_y": 70.63956451416016,
+            "velocity_y": 70.63957214355469,
             "required_thrust_to_move": 1,
             "starting_planet": true,
             "respawn": false,
@@ -229,7 +238,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -262,7 +272,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

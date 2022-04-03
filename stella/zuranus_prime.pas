@@ -1,5 +1,8 @@
 {
     "name": "Zuranus Prime",
+    "description": "Zuranus",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Zuranus",
@@ -31,7 +34,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -40,7 +44,7 @@
             "position_x": 2427.21826171875,
             "position_y": 28066.099609375,
             "velocity_x": -59.062599182128906,
-            "velocity_y": -173.04684448242188,
+            "velocity_y": -173.04681396484375,
             "required_thrust_to_move": 0,
             "starting_planet": true,
             "respawn": false,
@@ -64,7 +68,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -97,7 +102,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]

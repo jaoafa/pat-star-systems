@@ -1,13 +1,16 @@
 {
     "name": "1K",
+    "description": "Radius 1000 Planet Only",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "1K",
             "mass": 5000,
             "position_x": 0,
-            "position_y": 25000,
-            "velocity_x": -141.42135620117188,
-            "velocity_y": -0.000006181723165354924,
+            "position_y": 31815,
+            "velocity_x": -125.36289978027344,
+            "velocity_y": -0.0000054797865232103504,
             "required_thrust_to_move": 1000,
             "starting_planet": true,
             "respawn": false,
@@ -29,9 +32,10 @@
                 "symmetryType": "none",
                 "symmetricalMetal": false,
                 "symmetricalStarts": false,
-                "numArmies": 3,
+                "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]
