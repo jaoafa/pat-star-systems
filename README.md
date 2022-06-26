@@ -15,5 +15,5 @@
 - `stella` とは、ラテン語に由来する「星」や「惑星」を意味する言葉だそうです。
 
 ## スペシャルサンクス
-Thanks to FruitPvP/
-https://gitlab.com/FruitPvP/PAT_System_repo
+
+Thanks to [FruitPvP/PAT_System_repo](https://gitlab.com/FruitPvP/PAT_System_repo)
