@@ -25,7 +25,9 @@ jobs:
           jq '.version|="${{ github.event.release.tag_name }}"' modinfo.json > pat-star-systems/modinfo.json
 
       - name: Create maps list
-        run: ./.github/scripts/create-maps-list.sh
+        run: |
+          chmod 777 ./.github/scripts/create-maps-list.sh
+          ./.github/scripts/create-maps-list.sh
 
       - name: Zip
         run: |
