@@ -41,8 +41,8 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: ./pat-star-systems pat-star-systems.zip
-          asset_name: pat-star-systems pat-star-systems.zip
+          asset_path: ./pat-star-systems.zip
+          asset_name: pat-star-systems.zip
           asset_content_type: application/zip
 
       - name: Upload Release SHA1
@@ -52,6 +52,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
-          asset_path: ./pat-star-systems pat-star-systems.zip.sha1
-          asset_name: pat-star-systems pat-star-systems.zip.sha1
+          asset_path: ./pat-star-systems.zip.sha1
+          asset_name: pat-star-systems.zip.sha1
           asset_content_type: text/plain
