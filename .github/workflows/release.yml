@@ -22,7 +22,7 @@ jobs:
         run: |
           mkdir -p pat-star-systems/ui/mods/jaoafa/stella/
           cp -r stella/* pat-star-systems/ui/mods/jaoafa/stella/
-          cp -r modinfo.json pat-star-systems/
+          jq '.version|="${{ github.event.release.tag_name }}"' modinfo.json > pat-star-systems/modinfo.json
 
       - name: Create maps list
         run: ./.github/scripts/create-maps-list.sh
