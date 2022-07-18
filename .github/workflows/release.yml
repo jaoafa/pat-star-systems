@@ -1,0 +1,55 @@
+name: Release
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Get release
+        id: get_release
+        uses: bruceadams/get-release@v1.2.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Move files
+        run: |
+          mkdir -p pat-star-systems/ui/mods/jaoafa/stella/
+          cp -r stella/* pat-star-systems/ui/mods/jaoafa/stella/
+          cp -r modinfo.json pat-star-systems/
+
+      - name: Create maps list
+        run: ./.github/scripts/create-maps-list.sh
+
+      - name: Zip
+        run: |
+          zip -r pat-star-systems pat-star-systems
+          sha1sum -b pat-star-systems.zip > pat-star-systems.zip.sha1
+
+      - name: Upload Release Zip
+        id: upload-release-asset-zip
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./pat-star-systems pat-star-systems.zip
+          asset_name: pat-star-systems pat-star-systems.zip
+          asset_content_type: application/zip
+
+      - name: Upload Release SHA1
+        id: upload-release-asset-sha1
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./pat-star-systems pat-star-systems.zip.sha1
+          asset_name: pat-star-systems pat-star-systems.zip.sha1
+          asset_content_type: text/plain

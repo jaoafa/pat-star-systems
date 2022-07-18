@@ -1,0 +1,27 @@
+{
+  "context": "client",
+  "identifier": "com.jaoafa.pat-systems",
+  "display_name": "jao Minecraft Server PAT Systems",
+  "description": "jaoafa/pat-star-systems",
+  "author": "jaoafa",
+  "version": "1.0.0",
+  "build": "0",
+  "date": "2020-07-14",
+  "signature": "not yet implemented",
+  "forum": "",
+  "icon": "https://i.imgur.com/szhISCg.png",
+  "priority": 100,
+  "dependencies": [
+    "com.pa.conundrum.cShareSystems"
+  ],
+  "authors": [
+    "jaoafa"
+  ],
+  "scenes": {
+    "load_planet": [
+      "coui://ui/mods/jaoafa/maps.js"
+    ]
+  },
+  "titansOnly": true,
+  "titans": true
+}
