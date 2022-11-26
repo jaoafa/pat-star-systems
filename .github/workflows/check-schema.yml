@@ -1,0 +1,27 @@
+name: Check schema
+
+on:
+  push:
+    branches:
+      - main
+      - master
+  pull_request:
+    branches:
+      - main
+      - master
+
+jobs:
+  check-schema:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Get schema.json from latest release
+        run: |
+          URL=`curl -s https://api.github.com/repos/jaoafa/pat-star-systems/releases/latest | grep "browser_download_url.*json\"" | cut -d : -f 2,3 | tr -d \"`
+          curl -L -o schema.json $URL
+
+      - name: Check schema
+        run: |
+          pip install jsonschema
+          find stella -name "*.pas" | xargs -I{} jsonschema -i {} schema.json

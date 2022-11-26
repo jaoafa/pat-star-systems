@@ -63,7 +63,6 @@ jobs:
 
       - name: Create schema
         run: |
-          mkdir -p schema
           node ./.github/scripts/create-schema.js
           sha1sum -b schema.json > schema.json.sha1
 
