@@ -3,7 +3,7 @@
     "description": "Radius 1000 Planet Only",
     "creator": "Zakuro",
     "version": "1.0.0",
-    "planets": [
+    "planet": [
         {
             "name": "1K",
             "mass": 5000,
