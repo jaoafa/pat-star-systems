@@ -35,7 +35,6 @@ jobs:
           sha1sum -b pat-star-systems.zip > pat-star-systems.zip.sha1
 
       - name: Upload Release Zip
-        id: upload-release-asset-zip
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -46,7 +45,6 @@ jobs:
           asset_content_type: application/zip
 
       - name: Upload Release SHA1
-        id: upload-release-asset-sha1
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -54,4 +52,37 @@ jobs:
           upload_url: ${{ steps.get_release.outputs.upload_url }}
           asset_path: ./pat-star-systems.zip.sha1
           asset_name: pat-star-systems.zip.sha1
+          asset_content_type: text/plain
+
+      - uses: actions/setup-node@v2
+        with:
+          node-version: 16
+
+      - name: Install create-schema dependencies
+        run: npm install genson-js
+
+      - name: Create schema
+        run: |
+          mkdir -p schema
+          node ./.github/scripts/create-schema.js
+          sha1sum -b schema.json > schema.json.sha1
+
+      - name: Upload Schema
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./schema.json
+          asset_name: schema.json
+          asset_content_type: application/json
+
+      - name: Upload Schema SHA1
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.get_release.outputs.upload_url }}
+          asset_path: ./schema.json.sha1
+          asset_name: schema.json.sha1
           asset_content_type: text/plain
