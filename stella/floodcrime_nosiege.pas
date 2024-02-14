@@ -1,5 +1,7 @@
 {
     "name": "FloodCrime",
+    "creator": "Zakuro",
+    "version": "1.0.0",
     "planets": [
         {
             "name": "Blueberry",
@@ -31,7 +33,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -64,7 +67,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -81,7 +85,7 @@
             "min_spawn_delay": 0,
             "max_spawn_delay": 0,
             "planet": {
-                "seed": 1761053440,
+                "seed": 1482844672,
                 "radius": 400,
                 "heightRange": 35,
                 "waterHeight": 70,
@@ -97,7 +101,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -130,7 +135,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         },
         {
@@ -163,7 +169,8 @@
                 "symmetricalStarts": false,
                 "numArmies": 2,
                 "landingZonesPerArmy": 0,
-                "landingZoneSize": 0
+                "landingZoneSize": 0,
+                "heightAdjustments": []
             }
         }
     ]
