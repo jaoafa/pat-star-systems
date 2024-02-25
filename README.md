@@ -1,6 +1,6 @@
 # pat-star-systems
 
-[Planetary Annihilation: TITANS](https://planetaryannihilation.com) ([Steam](https://store.steampowered.com/app/386070/)) にて、jao Minecraft Server コミュニティで使われがちなカスタムマップ（惑星群）をまとめた Mod リポジトリです。
+[Planetary Annihilation: TITANS](https://planetaryannihilation.com) ([Steam](https://store.steampowered.com/app/386070/)) にて、jao Community で使われがちなカスタムマップ（惑星群）をまとめた Mod リポジトリです。
 
 一部 [FruitPvP/PAT_System_repo (GitLab)](https://gitlab.com/FruitPvP/PAT_System_repo) にもあるマップが混ざっているかもしれません。
 
@@ -19,7 +19,7 @@
        - `pat-star-systems`
          - `modinfo.json`
 4. `Planetary Annihilation: TITANS` を起動し、「コミュニティ MODS」 から `System Sharing for Titans & Classic` をインストールします。
-5. 「インストール済」タブから `jao Minecraft Server PAT Systems` をクリックし、下部「有効」をクリックします。
+5. 「インストール済」タブから `jao Community PAT Systems` をクリックし、下部「有効」をクリックします。
 6. トップページに戻り、「星系デザイナー」を開き、`jaoafa` タブがあることとそのタブ内に星系があることを確認します。
 
 ## 新規カスタムマップのアップロード手順
