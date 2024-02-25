@@ -6,6 +6,19 @@
 
 ## Mod の導入手順
 
+この Mod では、「スクリプトによるインストール」と「マニュアルインストール」を用意しています。  
+「スクリプトによるインストール」を推奨します。
+
+### スクリプトによるインストール（推奨）
+
+PowerShell を起動し、以下のスクリプトを実行してください。
+
+```powershell
+irm https://raw.githubusercontent.com/jaoafa/pat-star-systems/master/installer.ps1 | iex
+```
+
+### マニュアルインストール
+
 この Mod は依存 Mod として `System Sharing for Titans & Classic` を使用します。（それ以外の手段で星系を追加する方法がわかりませんでした）
 
 1. [Releases](https://github.com/jaoafa/pat-star-systems/releases) から `pat-star-systems.zip` をダウンロードします。
